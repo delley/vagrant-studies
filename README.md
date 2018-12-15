@@ -2,7 +2,7 @@
 
 ## O que é o Vagrant?
 
-![Logo Vagrant](img/golang.png)
+![Logo Vagrant](img/vagrantup-card.png)
 
 O Vagrant é uma ferrmenta de linha de comando (CLI) que abstrai a complexidade dos principais virtualizadores disponíveis e permite criar máquinas virtuais de uma forma extremamente simples.
 
