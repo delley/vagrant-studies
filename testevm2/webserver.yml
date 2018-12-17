@@ -5,9 +5,5 @@
   user: vagrant
   tasks:
     - 
-      name: "Atualiza pacotes"
-      shell: sudo apt-get update
-    
-    - 
-      name: "Instala o nginx"
-      shell: sudo apt-get install nginx -y
+      name: "Atualiza pacotes instala nginx"
+      apt: name=nginx state=latest update_cache=yes install_recommends=yes
