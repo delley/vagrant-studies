@@ -1,0 +1,7 @@
+    -
+      name: "Instala biblioteca python-mysqldb"
+      apt: name=python-mysqldb state=latest install_recommends=yes update_cache=yes
+    
+    -
+      name: "Criar diretório /opt/wordpress"
+      file: dest=/opt/wordpress mode=755 state=directory owner=www-data
