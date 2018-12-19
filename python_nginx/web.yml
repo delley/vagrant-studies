@@ -1,0 +1,9 @@
+---
+-
+  hosts: all
+  sudo: True
+  user: vagrant
+  roles:
+    - common
+    - nginx
+    - app
